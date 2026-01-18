@@ -1,0 +1,1 @@
+import numpy as np; y=np.array([10.2, 11.5, 13.9, 15]); print(np.sum((y - y.mean())**2))

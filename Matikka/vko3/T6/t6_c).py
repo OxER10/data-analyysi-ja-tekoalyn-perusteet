@@ -1,0 +1,1 @@
+import numpy as np; x1=np.array([3.1, 3.9, 5.2, 6.9]); x2=np.array([9,7.5,6,5]); y=np.array([10.2,11.5,13.9,15]); b0,b1,b2=18.57827,0.235971,-1.026187; print(np.sum((y-(b0+b1*x1+b2*x2))**2))
